@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1460212550.svg)](https://doi.org/10.5281/zenodo.24285393)
+
 # RELAY — An ECG foundation model for zero-shot transfer from hospital to point-of-care devices
 
 This is the official repository of `An ECG foundation model for zero-shot transfer from hospital to point-of-care devices`. It contains:
