@@ -1,0 +1,25 @@
+{
+    "conv_dim": [768, 768, 768, 768],
+    "in_channels": 768,
+    "hidden_channels": 768, 
+    "num_layers": 2, 
+    "dropout" : 0.1, 
+    "layerdrop" : 0.0,
+    "act" : "gelu", 
+    "norm" : "layer",
+    "gat_kwargs" : {
+        "concat" : true,
+        "heads" : 8,
+        "v2" : true
+    },
+    "use_pseudo_label_embeddings" : false,
+    "use_lead_encoding" : false,
+    "use_temporal_encoding" : false,
+    "mask_node_prob" : 0.4,
+    "min_node_masked" : 1,
+    "edge_drop_prob" : 0.0,
+    "pseudo_vocab_sizes" : [50],
+    "pseudo_classifier_projection_size" : 128,
+    "pooling" : "global_mean", 
+    "num_classes" : 6
+}

@@ -1,0 +1,49 @@
+# Python / editors
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and run outputs
+*.log
+slurm-*.out
+lightning_logs/
+mlruns/
+outputs/
+predictions/
+12_lead_benchmark/
+random_1_benchmark/
+rls_benchmark/
+ktest_12lead_models/
+lead_I_II_test_12lead_models/
+mimic_fewer_leads_12lead_models/
+test_ecg_jepa_8lead_12lead_models/
+test_st_mem_native_12lead_models/
+auroc_cis_12lead_models/
+clinical_tables_12lead_models/
+zero_shot/results/
+
+# Model weights (download them as described in the README; configs stay tracked)
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Datasets and arrays
+*.npy
+*.npz
+*.pkl
+*.dat
+*.hea
+*.mat
+*.h5
+*.hdf5
+*.zip
+*.tar.gz

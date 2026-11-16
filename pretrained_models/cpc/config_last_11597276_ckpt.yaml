@@ -1,0 +1,42 @@
+defaults:
+  - base: base
+  - data@data0: ecg_ptbxl
+  - ts: tsenc
+  - ts/enc: rnn
+  - ts/pred: s4
+  - ts/head: none
+  - ts/head_ssl: none
+  - ts/loss: none
+  - static: none
+  - head: none
+  - loss: bce
+  - trainer: trainer
+  - task: ecg
+  - metric: aurocagg
+  - _self_
+
+base:
+  batch_size: 32
+  fs: 240.
+  input_channels: 12
+  input_size: 2.5
+  normalize: false
+
+trainer:
+  gpus: 1
+  refresh_rate: 1
+  username: "user"
+  epochs: 200
+  precision: 32
+  pretrained: "./pretrained_models/cpc/last_11597276.ckpt"
+
+ts:
+  enc:
+    features: [ 512, 512, 512, 512 ]
+    kss: [ 3, 1, 1, 1 ]
+    strides: [ 2, 1, 1, 1 ]
+  pred:
+    causal: True
+    state_dim: 8
+    model_dim: 512
+    backbone: "s42"
