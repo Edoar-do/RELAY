@@ -1,8 +1,6 @@
-[![DOI](https://zenodo.org/badge/1460212550.svg)](https://doi.org/10.5281/zenodo.24285393)
+[![DOI](https://zenodo.org/badge/1460212550.svg)](https://doi.org/10.5281/zenodo.24285393) [![arXiv](https://img.shields.io/badge/arXiv-2608.03690-b31b1b.svg)](https://arxiv.org/abs/2608.03690)
 
 # RELAY — An ECG foundation model for zero-shot transfer from hospital to point-of-care devices
-
-[![arXiv](https://img.shields.io/badge/arXiv-2608.03690-b31b1b.svg)](https://arxiv.org/abs/2608.03690)
 
 <p align="center">
   <img src="figures/overview.png" width="1000" alt="overview">
