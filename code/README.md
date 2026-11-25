@@ -1,0 +1,1 @@
+This part of the repository is based on the work of M. A. Al-Masud, Juan Miguel Lopez Alcaraz, Nils Strodthoff, [Benchmarking ECG FMs: A Reality Check Across Clinical Tasks](https://arxiv.org/abs/2509.25095)
